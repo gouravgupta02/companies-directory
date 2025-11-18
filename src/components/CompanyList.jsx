@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, useCallback } from "react";
+import React, { useRef, useCallback } from "react";
 import {
   TableContainer,
   Table,
@@ -11,8 +11,6 @@ import {
   Typography,
   Box
 } from "@mui/material";
-
-const PAGE_SIZE = 5;
 
 const CompanyList = ({ companies, loading, error, loadMore, hasMore }) => {
   const observer = useRef();

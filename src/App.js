@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import { Container, Typography, Box, Stack } from "@mui/material";
+import { Container, Typography, Box } from "@mui/material";
 import Filters from "./components/Filters";
 import CompanyList from "./components/CompanyList";
 import companiesData from "./data/companies.json";

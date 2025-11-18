@@ -1,5 +1,5 @@
 import React from "react";
-import { Autocomplete, TextField, Box } from "@mui/material";
+import { Autocomplete, TextField } from "@mui/material";
 
 const MultiSelectFilter = ({
   label,
